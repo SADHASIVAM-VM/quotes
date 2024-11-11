@@ -1,0 +1,99 @@
+/* Container styling */
+body{
+    background-image: url("https://img.freepik.com/free-vector/gradient-green-tones-background_23-2148373960.jpg?t=st=1731302944~exp=1731306544~hmac=5c421467631073bab153e38d5c18e226cac0115ed2048a00aee8b5d5e2ce5d0b&w=996");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    width: 100vw;
+}
+.advice-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: #f9fafb;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    max-width: 600px;
+    margin: 50px auto;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Quote styling */
+  .advice-quote {
+    font-size: 1.8em;
+    font-weight: 500;
+    color: #4a4a4a;
+    background-color: #ffb703;
+    padding: 20px 25px;
+    border-radius: 10px;
+    color: #1d3557;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    transition: transform 0.3s;
+  }
+  
+  .advice-quote:before {
+    content: "💬";
+    font-size: 1.2em;
+    position: absolute;
+    top: -20px;
+    left: 10px;
+    color: #ffb703;
+  }
+  
+  /* Hover effect for quote */
+  .advice-quote:hover {
+    transform: translateY(-5px) scale(1.03);
+  }
+  
+  /* Button styling */
+  .advice-button {
+    background-color: #023047;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+    box-shadow: 0 4px 12px rgba(2, 48, 71, 0.3);
+  }
+  
+  .advice-button:hover {
+    background-color: #219ebc;
+    transform: scale(1.05);
+  }
+  
+  /* Counter styling */
+  .advice-counter {
+    font-size: 1.2em;
+    color: #fb8500;
+    padding: 10px;
+    background-color: #ffedd5;
+    border-radius: 8px;
+    margin-top: 15px;
+  }
+  
+  .counter {
+    background-color: #ff4d6d;
+    color: #ffffff;
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  .btn{
+    display: flex;
+    gap: 10px;
+  }
+  .text{
+    text-align: center;
+    font-size: 42px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+  }
